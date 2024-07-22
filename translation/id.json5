@@ -1,0 +1,53 @@
+// Github: https://github.com/NooberPro/minecraft-discord-bot
+// Terjemahan ke Bahasa Indonesia oleh NooberPro
+
+{
+  ip: {
+    // Variabel: {ip}
+    title: '__**ALAMAT SERVER**__',
+    description: '**{ip}**',
+  },
+  vote: {
+    // Variabel: {vote}
+    title: '__**WEBvote**__',
+    description: '**Tautan: {vote}**',
+  },
+  version: {
+    // Variabel: {version}
+    title: '__**VERSI**__',
+    description: '**{version}**',
+  },
+  offlineEmbed: {
+    // Variabel: {ip}, {version}, {sit}
+    title: ':red_circle: OFFLINE',
+    description: '', // Biarkan deskripsi kosong untuk menonaktifkannya.
+  },
+  players: {
+    // Variabel: {playeronline}, {playermax}
+    title: '__**PEMAIN**__',
+    description: '**{playeronline}/{playermax}**',
+    // Setelah deskripsi akan ada Daftar Nama Pemain.
+    // Menampilkan embed offline saat server MC mati.
+  },
+  motd: {
+    // Variabel: {motd}
+    title: '__**MOTD**__',
+    description: '**{motd}**',
+  },
+  onlineEmbed: {
+    // Variabel: {ip}, {motd}, {version}, {vote}
+    title: ':green_circle: ONLINE',
+    // Di sini, judul dan deskripsi Embed Daftar Pemain dari embed pemain di atas (baris: 26)
+
+    // Setelah Bidang Daftar Pemain akan ada deskripsi.
+    description_field_one: '__**MOTD**__\n**{motd}**\n\n__**ALAMAT SERVER**__\n**{ip}**',
+    description_field_two: '__**VERSI**__\n**{version}**\n\n__**WEBvote**__\n**Tautan: {vote}**',
+  },
+  help: {
+    // Variabel: {prefix}, {botName}
+    title: '__**DAFTAR PERINTAH**__',
+    description: '**Awalan: `{prefix}`**',
+    // Variabel hanya untuk listFormat: {cmdDescription}, {cmdSlashMention}
+    listFormat: '{slashCmdMention} **`-` {cmdDescription}**',
+  },
+}
