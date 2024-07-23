@@ -1,6 +1,6 @@
 module.exports = {
   bot: {
-    token: 'MTI2NDkwNjE1MDc5NzkwMTg4NQ.GmvTJP.7CyLW2LoUuvIMFYCspSZZWLtglPbOvX3cPz8vA',
+    token: '',
 
     presence: {
       enabled: true,
