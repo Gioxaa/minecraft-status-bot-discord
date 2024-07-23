@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NooberPro/minecraft-discord-bot.git"
+    "url": "git+https://github.com/Gioxaa/minecraft-status-bot-discord.git"
   },
   "keywords": [
     "minecraft",
@@ -20,9 +20,9 @@
   "author": "Gioxaa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NooberPro/minecraft-discord-bot/issues"
+    "url": "https://github.com/Gioxaa/minecraft-status-bot-discord.git"
   },
-  "homepage": "https://github.com/NooberPro/minecraft-discord-bot#readme",
+  "homepage": "https://github.com/Gioxaa/minecraft-status-bot-discord#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commandkit": "^0.1.6",
